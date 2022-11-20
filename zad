@@ -1,0 +1,38 @@
+1.
+         *
+       --*-- 
+         *
+int n = int.Parse(Console.ReadLine());
+for (int i = 1; i < n + 1; i++)
+{
+    if (i == n / 2 + 1)
+    {
+        for (int j = 1; j < n / 2 + 1; j++)
+        {
+            Console.Write("-");
+        }
+        Console.Write("*");
+        for (int j = 1; j < n / 2 + 1; j++)
+        {
+            Console.Write("-");
+        }
+    }
+    else
+    {
+        for (int j = 1; j < n / 2 + 1; j++)
+        {
+            Console.Write(" ");
+        }
+        Console.Write("*");
+    }
+    Console.WriteLine();
+}
+Console.WriteLine();
+ZAD 2 ZE SPRAWEDZIANU
+for (int i = 1000; i < 10000; i++)
+{
+    if ((i % 10) / 2 == (i / 10) % 10 && ((i / 10) % 10) / 2 == (i / 100) % 10)
+    {
+        Console.WriteLine(i);
+    }
+}

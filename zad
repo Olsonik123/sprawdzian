@@ -31,7 +31,7 @@ Console.WriteLine();
 ZAD 2 ZE SPRAWEDZIANU
 for (int i = 1000; i < 10000; i++)
 {
-    if ((i % 10) / 2 == (i / 10) % 10 && ((i / 10) % 10) / 2 == (i / 100) % 10)
+    if ((i % 10) == ((i / 10) % 10) * 2 && (i / 10) % 10 == ((i / 100) % 10)*2)
     {
         Console.WriteLine(i);
     }

@@ -36,3 +36,17 @@ for (int i = 1000; i < 10000; i++)
         Console.WriteLine(i);
     }
 }
+
+1 zad sprawdzian
+
+Console.WriteLine("podaj start");
+int start = int.Parse(Console.ReadLine());
+int dlugskoku = int.Parse(Console.ReadLine());
+int meta = int.Parse(Console.ReadLine());
+int a = 0;
+for (; start < meta; start += dlugskoku)
+{
+    a++;
+}
+Console.WriteLine(a);
+Console.WriteLine(a+1);
